@@ -42,3 +42,8 @@ border-radius: 5px;}
                 border-bottom: 1px solid transparent;
                 background-color: #cecece;
                 }
+                .see-more-button a{
+                    color: #FF9D00;
+                    text-decoration: none;
+                        text-transform: capitalize;
+                    text-align: right;}
