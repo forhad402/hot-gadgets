@@ -1,1 +1,31 @@
-.card {border: none; }
+.card {border: none; box-shadow: 5px 5px 10px lightgray; }
+.container{margin-top:80px;}
+.cat-title{ width: 100%;
+text-align: center;
+margin: 0 auto;}
+.cat-title h2{ display: inline block;
+position: relative;
+font-size: 24px;
+color: #1f1f1f;
+font-weight: 600;}
+.cat-title h2:after{content: "";
+position: absolute;
+bottom: -12px;
+left: 50%;
+margin-left: -50px;
+height: 5px;
+background: #ff9c35;
+width: 100px;
+border-radius: 5px;}
+.first-image img{  box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 0px 20px 0px 50px;
+    margin: auto;
+    }
+    .second-image img{ box-shadow:0 0 20px 0px #cccccc;
+        padding: 50px 60px;
+        border-radius: 25px 0px 50px 0px;
+        margin: 20px 0px 10px 0px;
+        text-align: center;}
+        big-image{overflow: hidden;}
+        .big-image img{width: 580px;}
