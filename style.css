@@ -1,14 +1,27 @@
-.card {border: none; box-shadow: 5px 5px 10px lightgray; }
-.container{margin-top:80px;}
-.cat-title{ width: 100%;
+.card {
+border: none; box-shadow: 5px 5px 10px lightgray; 
+}
+
+.container{
+margin-top:80px;
+}
+
+.cat-title{
+width: 100%;
 text-align: center;
-margin: 0 auto;}
-.cat-title h2{ display: inline block;
+margin: 0 auto;
+}
+
+.cat-title h2{
+display: inline block;
 position: relative;
 font-size: 24px;
 color: #1f1f1f;
-font-weight: 600;}
-.cat-title h2:after{content: "";
+font-weight: 600;
+}
+
+.cat-title h2:after{
+content: "";
 position: absolute;
 bottom: -12px;
 left: 50%;
@@ -16,34 +29,54 @@ margin-left: -50px;
 height: 5px;
 background: #ff9c35;
 width: 100px;
-border-radius: 5px;}
-.first-image img{  box-shadow:0 0 20px 0px #cccccc;
-    padding: 50px 60px;
-    border-radius: 0px 20px 0px 50px;
-    margin: auto;
-    }
-    .second-image img{ box-shadow:0 0 20px 0px #cccccc;
-        padding: 50px 60px;
-        border-radius: 25px 0px 50px 0px;
-        margin: 20px 0px 10px 0px;
-        text-align: center;}
-        big-image{overflow: hidden;}
-        .big-image img{width: 580px;}
-        .carousel-indicators li.active {
-            width: 45px;
-            height: 10px;
-            background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%);
-            }
-            .carousel-indicators li {
-                width: 12px;
-                height: 12px;
-                border-radius: 10px;
-                border-top: 1px solid transparent;
-                border-bottom: 1px solid transparent;
-                background-color: #cecece;
-                }
-                .see-more-button a{
-                    color: #FF9D00;
-                    text-decoration: none;
-                        text-transform: capitalize;
-                    text-align: right;}
+border-radius: 5px; 
+}
+
+.first-image img{  
+box-shadow:0 0 20px 0px #cccccc;
+padding: 50px 60px;
+border-radius: 0px 20px 0px 50px;
+margin: 20px;
+}
+
+.second-image img{
+box-shadow:0 0 20px 0px #cccccc;
+padding: 50px 60px;
+border-radius: 25px 0px 50px 0px;
+margin: 20px 0px 10px 0px;
+text-align: center;
+}
+
+big-image{
+overflow: hidden;
+}
+
+.big-image img{
+width: 580px;
+}
+
+.carousel-indicators li.active {
+width: 45px;
+height: 10px;
+background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%);
+}
+
+.carousel-indicators li {
+ width: 12px;
+height: 12px;
+border-radius: 10px;
+border-top: 1px solid transparent;
+border-bottom: 1px solid transparent;
+background-color: #cecece;
+}
+
+.see-more-button {
+
+text-transform: capitalize;
+text-align: right;
+margin: 40px;
+display: inline block;
+}
+.see-more-button a{
+    color: orange;
+}
